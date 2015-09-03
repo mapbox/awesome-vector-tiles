@@ -23,7 +23,7 @@ data into vector tiles that can be rendered dynamically.
 - [Leaflet.MapboxVectorTile](https://github.com/SpatialServer/Leaflet.MapboxVectorTile) is able to read PBF MapboxVectorTiles from a REST endpoint and render them as a TileLayer on a Leaflet Map. Use this option if you want to utilize vector tiles on a standard Leaflet web map without needing WebGL.
 - [Nutiteq Maps SDK 3.x](https://developer.nutiteq.com) - C++ maps library for iOS, Android, Windows Phone and Xamarin with bindings for Java, ObjectiveC and C#
 - [Mapzen Tangram](https://github.com/tangrams/tangram) - JavaScript library for rendering 2D & 3D maps live in a web browser with WebGL, supports MVT, GeoJSON, TopoJSON
-- [Mapzen Tangram-es](https://github.com/mapbox/vector-tile-spec/wiki/Implementations) - C++ library for rendering 2D and 3D maps using OpenGL ES 2 with custom styling and interactions
+- [Mapzen Tangram-es](https://github.com/tangrams/tangram-es) - C++ library for rendering 2D and 3D maps using OpenGL ES 2 with custom styling and interactions
 
 ### Applications / Command line tools
 
