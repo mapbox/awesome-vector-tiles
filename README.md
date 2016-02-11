@@ -41,6 +41,8 @@ data into vector tiles that can be rendered dynamically.
 - [vector-tiles-producer](https://github.com/vross/vector-tiles-producer) Command line tool in C++ to creates vector tiles for a given area at chosen zoom levels using a Mapnik XML.
 - [tippecanoe](https://github.com/mapbox/tippecanoe) - Build vector tilesets from large collections of GeoJSON features.
 - [vt-geojson](https://github.com/developmentseed/vt-geojson) - decodes vector tiles to GeoJSON FeatureCollections
+- [mbinfo](https://github.com/anandthakker/mbinfo) - Prints information about tile contents
+- [mbpipe](https://github.com/mapbox/node-mbtiles/wiki/Post-processing-MBTiles-with-MBPipe) - part of node-mbtiles, batch operations on tiles
 
 ## Mapbox GL JS Plugins
 
