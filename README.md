@@ -28,6 +28,7 @@ data into vector tiles that can be rendered dynamically.
 - [Mapzen Tangram-es](https://github.com/tangrams/tangram-es) - C++ library for rendering 2D and 3D maps using OpenGL ES 2 with custom styling and interactions
 * [mapbox-gl-leaflet](https://github.com/mapbox/mapbox-gl-leaflet) - Create Mapbox GL layers in Leaflet
 * [react-native-mapbox-gl](https://github.com/mapbox/react-native-mapbox-gl) - Render Mapbox GL maps from React applications
+* [hoverbord](https://github.com/devTristan/hoverboard) - Render vector tiles on canvas with Leaflet (supports GeoJSON, TopoJSON, and protobuf)
 
 ### Applications / Command line tools
 
