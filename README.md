@@ -54,6 +54,7 @@ data into vector tiles that can be rendered dynamically.
 - [SpatialServer (PGRestAPI)](https://github.com/spatialdev/PGRestAPI) - A multi-purpose GeoSpatial NodeJS web server created at [SpatialDev](http://spatialdev.com) that not only serves MBTiles stuffed with vector tiles, it can also cut vector tiles on the fly from a PostGIS database.
 - [Utilery](https://github.com/etalab/utilery) Server to generate vector tiles from PostGIS queries. Python based
 - [Tilestache](https://github.com/mapzen/TileStache/) Mapzen fork. It supports mvt output tiles.
+- [Kartotherian](https://github.com/kartotherian/kartotherian) Wikipedia tile server with [Tilerator](https://github.com/kartotherian/tilerator) backend tile pre-generator
 
 ## Low-level utilities
 
