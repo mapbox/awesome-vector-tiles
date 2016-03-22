@@ -18,7 +18,7 @@ data into vector tiles that can be rendered dynamically.
 
 ## Clients
 
-- [Mapbox GL Native](https://github.com/mapbox/mapbox-gl-native) - C++/OpenGL vector maps library.
+- [Mapbox GL Native](https://github.com/mapbox/mapbox-gl-native) - C++/OpenGL vector maps library with native SDKs for Android, iOS, Node.js, and OS X
 - [Mapbox GL JS](https://github.com/mapbox/mapbox-gl-js) - JavaScript/WebGL vector maps library.
 - [OpenLayers 3](https://github.com/openlayers/ol3/pull/4219) - JavaScript vector & raster library.
 - [WhirlyGlobe/Maply](https://github.com/mousebird/WhirlyGlobe/blob/master/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/src/MaplyMapnikVectorTiles.mm) - Objective C code that is able to read and render vector tiles(and style with mapnik xml) on iOS devices.
@@ -30,6 +30,7 @@ data into vector tiles that can be rendered dynamically.
 * [react-native-mapbox-gl](https://github.com/mapbox/react-native-mapbox-gl) - Render Mapbox GL maps from React applications
 * [hoverbord](https://github.com/devTristan/hoverboard) - Render vector tiles on canvas with Leaflet (supports GeoJSON, TopoJSON, and protobuf)
 * [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/) - Draw vector tile layers as part of your web map. Rendering done via `mapbox-gl-js` integration.
+* [QMapboxGL](https://github.com/tmpsantos/qmapboxgl) – native vector maps library for Qt
 
 ### Applications / Command line tools
 
