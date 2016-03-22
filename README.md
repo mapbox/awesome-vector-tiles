@@ -29,11 +29,13 @@ data into vector tiles that can be rendered dynamically.
 * [mapbox-gl-leaflet](https://github.com/mapbox/mapbox-gl-leaflet) - Create Mapbox GL layers in Leaflet
 * [react-native-mapbox-gl](https://github.com/mapbox/react-native-mapbox-gl) - Render Mapbox GL maps from React applications
 * [hoverbord](https://github.com/devTristan/hoverboard) - Render vector tiles on canvas with Leaflet (supports GeoJSON, TopoJSON, and protobuf)
+* [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/) - Draw vector tile layers as part of your web map. Rendering done via `mapbox-gl-js` integration.
 
 ### Applications / Command line tools
 
 - [Mapbox Studio](https://github.com/mapbox/mapbox-studio) - Desktop design studio for both creating vector tiles from raw geodata and for rendering them on-the-fly into image tiles. Internally uses `tilelive.js` modules to handle vector tiles (see `tilelive-bridge` and `tilelive-vector`)
 - [kosmtik](https://github.com/kosmtik/kosmtik) - Design maps with CartoCSS and Mapnik.
+- [ArcGIS Pro](http://www.esri.com/en/software/arcgis-pro) - Generate vector tiles from maps authored in ArcGIS Pro or imported from ArcMap.
 
 ## CLI Utilities
 
@@ -56,6 +58,8 @@ data into vector tiles that can be rendered dynamically.
 - [Utilery](https://github.com/etalab/utilery) Server to generate vector tiles from PostGIS queries. Python based
 - [Tilestache](https://github.com/mapzen/TileStache/) Mapzen fork. It supports mvt output tiles.
 - [Kartotherian](https://github.com/kartotherian/kartotherian) Wikipedia tile server with [Tilerator](https://github.com/kartotherian/tilerator) backend tile pre-generator
+- [ArcGIS Online](http://www.esri.com/software/arcgis/arcgisonline) - Supports serving vector tiles and rendering in the mapping application powered by the ArcGIS API for JavaScript
+- [Portal for ArcGIS](http://www.esri.com/software/arcgis/arcgisserver/extensions/portal-for-arcgis) - Supports serving vector tiles and rendering in the mapping application powered by the ArcGIS API for JavaScript
 
 ## Low-level utilities
 
