@@ -18,7 +18,7 @@ data into vector tiles that can be rendered dynamically.
 
 ## Clients
 
-- [Mapbox GL Native](https://github.com/mapbox/mapbox-gl-native) - C++/OpenGL vector maps library with native SDKs for Android, iOS, Node.js, and OS X
+- [Mapbox GL Native](https://github.com/mapbox/mapbox-gl-native) - C++/OpenGL vector maps library with native SDKs for Android, iOS, Node.js, OS X, and Qt
 - [Mapbox GL JS](https://github.com/mapbox/mapbox-gl-js) - JavaScript/WebGL vector maps library.
 - [OpenLayers 3](https://github.com/openlayers/ol3/pull/4219) - JavaScript vector & raster library.
 - [WhirlyGlobe/Maply](https://github.com/mousebird/WhirlyGlobe/blob/master/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/src/MaplyMapnikVectorTiles.mm) - Objective C code that is able to read and render vector tiles(and style with mapnik xml) on iOS devices.
