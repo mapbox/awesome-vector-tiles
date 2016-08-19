@@ -16,6 +16,7 @@ data into vector tiles that can be rendered dynamically.
 - [geojson-vt](https://github.com/mapbox/geojson-vt) - Slice GeoJSON into vector tiles on the fly in the browser.
 - [java-vector-tile](https://github.com/ElectronicChartCentre/java-vector-tile) - A java encoder and decoder for vector tiles.
 - [mapbox-vector-tile-java](https://github.com/wdtinc/mapbox-vector-tile-java) - Encode and decode v2.1 Mapbox Vector Tiles. Convert JTS Geometry to and from MVT features, including simple user data support. Utility functions for converting world coordinates to MVT coordinates and clipping to a tile envelope.
+- [cached-vector-tile](https://github.com/developmentseed/cached-vector-tile) - An alternative implementation of the vector-tile-js interface, backed by plain JS objects/arrays rather than parsed-on-demand protobuf data. Trades away memory efficiency for faster feature.loadGeometry() calls.
 
 ## Clients
 
