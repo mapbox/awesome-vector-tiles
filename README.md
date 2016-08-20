@@ -7,7 +7,8 @@ data into vector tiles that can be rendered dynamically.
 
 - [vector-tile-js](https://github.com/mapbox/vector-tile-js) - Parses vector tiles with JavaScript.
 - [mapnik-vector-tile](https://github.com/mapbox/mapnik-vector-tile) - C++ vector tile read/write implementation on top of Mapnik.
-- [vector-tile-py](https://github.com/mapbox/vector-tile-py) - Python vector tile decoder implementation
+- [mbtiles-cpp](https://github.com/TimSC/mbtiles-cpp) - C++ library for decoding of mbtiles and vector data into function callbacks.
+- [vector-tile-py](https://github.com/mapbox/vector-tile-py) - Python tool to convert a Mapnik vector tile to GeoJSON
 - [node-mapnik](https://github.com/mapnik/node-mapnik) - Node.js API for vector tiles which depends on `mapnik-vector-tile`
 - [mapbox-vector-tile-cs](https://github.com/bertt/mapbox-vector-tile-cs) - Parses vector tiles with C#.
 - [tilelive-bridge](https://github.com/mapbox/tilelive-bridge) - Implements [Tilelive API](https://github.com/mapbox/tilelive.js/blob/master/API.md) for creating vector tiles from traditional Mapnik datasources in Node.js.
