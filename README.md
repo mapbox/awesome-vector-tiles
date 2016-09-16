@@ -66,7 +66,7 @@ data into vector tiles that can be rendered dynamically.
 - [Portal for ArcGIS](http://www.esri.com/software/arcgis/arcgisserver/extensions/portal-for-arcgis) - Supports serving vector tiles and rendering in the mapping application powered by the ArcGIS API for JavaScript
 - [tilesplash](https://github.com/faradayio/tilesplash) - A light and quick nodejs webserver for serving topojson or mapbox vector tiles from a postgis backend
 - [go-vtile-example](https://github.com/vicapow/go-vtile-example) - An example server written in Go
-- [Tegola](https://github.com/terranodo/tegola) - A MVT server written in pure Go. Simple to setup, simple to deploy. [Documentation](http://tegola.io)
+- [Tegola](https://github.com/terranodo/tegola) - A MVT server written in pure Go that supports serving tiles from a PostGIS data provider. Simple to setup, simple to deploy. [Documentation](http://tegola.io)
 
 ## Low-level utilities
 
