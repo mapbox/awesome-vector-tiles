@@ -68,6 +68,7 @@ data into vector tiles that can be rendered dynamically.
 - [tilesplash](https://github.com/faradayio/tilesplash) - A light and quick nodejs webserver for serving topojson or mapbox vector tiles from a postgis backend
 - [go-vtile-example](https://github.com/vicapow/go-vtile-example) - An example server written in Go
 - [Tegola](https://github.com/terranodo/tegola) - A MVT server written in pure Go that supports serving tiles from a PostGIS data provider.
+- [t-rex](https://github.com/pka/t-rex/) - MVT server in a single executable written in Rust. Serves tiles from PostGIS supporting custom tile grids. 
 
 ## Low-level utilities
 
