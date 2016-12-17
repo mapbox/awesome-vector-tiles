@@ -41,6 +41,7 @@ data into vector tiles that can be rendered dynamically.
 - [Mapbox Studio](https://github.com/mapbox/mapbox-studio) - Desktop design studio for both creating vector tiles from raw geodata and for rendering them on-the-fly into image tiles. Internally uses `tilelive.js` modules to handle vector tiles (see `tilelive-bridge` and `tilelive-vector`)
 - [kosmtik](https://github.com/kosmtik/kosmtik) - Design maps with CartoCSS and Mapnik.
 - [ArcGIS Pro](http://www.esri.com/en/software/arcgis-pro) - Generate vector tiles from maps authored in ArcGIS Pro or imported from ArcMap.
+- [MVT Styler](http://sputnik-maps.github.io/mvt-styler/) - map style editor for vector tiles.
 
 ## CLI Utilities
 
