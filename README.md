@@ -42,6 +42,7 @@ data into vector tiles that can be rendered dynamically.
 - [kosmtik](https://github.com/kosmtik/kosmtik) - Design maps with CartoCSS and Mapnik.
 - [ArcGIS Pro](http://www.esri.com/en/software/arcgis-pro) - Generate vector tiles from maps authored in ArcGIS Pro or imported from ArcMap.
 - [MVT Styler](http://sputnik-maps.github.io/mvt-styler/) - map style editor for vector tiles.
+- [Maputnik](https://github.com/maputnik/editor) - A visual style editor for the Mapbox GL style specification.
 
 ## CLI Utilities
 
