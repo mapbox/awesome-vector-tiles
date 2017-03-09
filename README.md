@@ -53,7 +53,7 @@ data into vector tiles that can be rendered dynamically.
 - [vt-geojson](https://github.com/developmentseed/vt-geojson) - decodes vector tiles to GeoJSON FeatureCollections
 - [tl](https://github.com/mojodna/tl) - An alternate command line interface to tilelive
 - [tileshrink](https://github.com/rastapasta/tileshrink) - Reduce the layer extent and simplify the resulting geometries of all vector tiles in an MBTiles
-- [tiler](https://github.com/Geovation/tiler) - A no nonsense Vector Tile pipeline
+- [tiler](https://github.com/Geovation/tiler) - Command line tool for converting GeoJSON, Shapefiles or PostGIS layer to raw Vector Tiles (or MBTiles)
 
 ## Mapbox GL JS Plugins
 
