@@ -10,7 +10,8 @@ data into vector tiles that can be rendered dynamically.
 - [mbtiles-cpp](https://github.com/TimSC/mbtiles-cpp) - C++ library for decoding of mbtiles and vector data into function callbacks.
 - [vector-tile-py](https://github.com/mapbox/vector-tile-py) - Python tool to convert a Mapnik vector tile to GeoJSON
 - [node-mapnik](https://github.com/mapnik/node-mapnik) - Node.js API for vector tiles which depends on `mapnik-vector-tile`
-- [mapbox-vector-tile-cs](https://github.com/bertt/mapbox-vector-tile-cs) - Parses vector tiles with C#.
+- [vector-tile-cs](https://github.com/mapbox/vector-tile-cs) - Parses vector tiles with C# (native C# implementation, no dependencies).
+- [mapbox-vector-tile-cs](https://github.com/bertt/mapbox-vector-tile-cs) - Parses vector tiles with C# (uses protobuf-net).
 - [tilelive-bridge](https://github.com/mapbox/tilelive-bridge) - Implements [Tilelive API](https://github.com/mapbox/tilelive.js/blob/master/API.md) for creating vector tiles from traditional Mapnik datasources in Node.js.
 - [tilelive-vector](https://github.com/mapbox/tilelive-vector) - Implements [Tilelive API](https://github.com/mapbox/tilelive.js/blob/master/API.md) for reading vector tiles and rendering to image tiles in Node.js.
 - [mapbox-vector-tile](https://github.com/mapzen/mapbox-vector-tile) is a Python package for vector tile encoding maintained by Mapzen. (It is used in Mapzen's [vector tile service](http://mapzen.com/vector)).
