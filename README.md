@@ -65,6 +65,7 @@ data into vector tiles that can be rendered dynamically.
 ## Servers
 
 - [tessera](https://github.com/mojodna/tessera) - Supports serving and rendering vector tiles. Uses the same core libraries as Mapbox Studio.
+- [tessella](https://github.com/urbica/tessella) - lightweight Node.js Mapbox Vector Tiles server. Inspired by tessera.
 - [tilestrata](https://github.com/naturalatlas/tilestrata) - with tilestrata-vt, can generate vector tiles
 - [SpatialServer (PGRestAPI)](https://github.com/spatialdev/PGRestAPI) - A multi-purpose GeoSpatial NodeJS web server created at [SpatialDev](http://spatialdev.com) that not only serves MBTiles stuffed with vector tiles, it can also cut vector tiles on the fly from a PostGIS database.
 - [Utilery](https://github.com/etalab/utilery) Server to generate vector tiles from PostGIS queries. Python based
