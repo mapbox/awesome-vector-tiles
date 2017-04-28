@@ -37,6 +37,7 @@ data into vector tiles that can be rendered dynamically.
 * [hoverboard](https://github.com/devTristan/hoverboard) - Render vector tiles on canvas with Leaflet 0.7.x (supports GeoJSON, TopoJSON, and protobuf)
 * [Leaflet.VectorGrid](https://github.com/IvanSanchez/Leaflet.VectorGrid) - Display gridded vector data (sliced GeoJSON, TopoJSON or Mapbox Vector Tiles) in Leaflet 1.0.0
 * [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/) - Draw vector tile layers as part of your web map. Rendering done via `mapbox-gl-js` integration.
+* [mapscii](https://github.com/rastapasta/mapscii) - A Vector Tile to Braille and ASCII renderer for xterm-compatible terminals
 
 ### Applications / Command line tools
 
