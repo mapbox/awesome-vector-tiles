@@ -46,6 +46,7 @@ data into vector tiles that can be rendered dynamically.
 - [ArcGIS Pro](http://www.esri.com/en/software/arcgis-pro) - Generate vector tiles from maps authored in ArcGIS Pro or imported from ArcMap.
 - [MVT Styler](http://sputnik-maps.github.io/mvt-styler/) - map style editor for vector tiles.
 - [Maputnik](https://github.com/maputnik/editor) - A visual style editor for the Mapbox GL style specification.
+- [QGIS Vector Tiles Reader](https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin) - QGIS Python plugin which reads Mapbox Vector Tiles from local MBTiles file or remote
 
 ## CLI Utilities
 
