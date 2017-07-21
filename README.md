@@ -56,8 +56,14 @@ data into vector tiles that can be rendered dynamically.
 - [vt-geojson](https://github.com/developmentseed/vt-geojson) - decodes vector tiles to GeoJSON FeatureCollections
 - [tl](https://github.com/mojodna/tl) - An alternate command line interface to tilelive
 - [tileshrink](https://github.com/rastapasta/tileshrink) - Reduce the layer extent and simplify the resulting geometries of all vector tiles in an MBTiles
-- [tiler](https://github.com/Geovation/tiler) - Command line tool for converting GeoJSON, Shapefiles or PostGIS layer to raw Vector Tiles (or MBTiles)
+- [tiler @GeoVation](https://github.com/Geovation/tiler) - Command line tool for converting GeoJSON, Shapefiles or PostGIS layer to raw Vector Tiles (or MBTiles)
+- [tiler @thomersch](https://github.com/thomersch/grandine/tree/master/cmd/tiler) - Command line tool to convert GEOJson to Vector Tiles (written in Go language).
 - [geojson2mvt](https://github.com/NYCPlanning/geojson2mvt) - npm package for building a static vector tile tree for given xyz bounds from a geojson file (uses vt-geojson)
+
+## GUI Utilities (Web Apps, Desktop Apps)
+
+- [Tiles à la Google Maps](http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/) - "Tiles à la Google Maps: Coordinates, Tile Bounds and Projection" - shows Z/X/Y indexes.
+- [mapbox-gl-inspect](https://github.com/lukasmartinelli/mapbox-gl-inspect) - Plugin for Mapbox GL JS to view the view ans inspect VT features. 
 
 ## Mapbox GL JS Plugins
 
@@ -78,6 +84,7 @@ data into vector tiles that can be rendered dynamically.
 - [go-vtile-example](https://github.com/vicapow/go-vtile-example) - An example server written in Go
 - [Tegola](https://github.com/terranodo/tegola) - A MVT server written in pure Go that supports serving tiles from a PostGIS data provider.
 - [t-rex](https://github.com/pka/t-rex/) - MVT server in a single executable written in Rust. Serves tiles from PostGIS supporting custom tile grids.
+- [OSM Scout Server](https://rinigus.github.io/osmscout-server/) - Maps server providing tiles, geocoder, and router (written in C++).
 
 ## Low-level utilities
 
