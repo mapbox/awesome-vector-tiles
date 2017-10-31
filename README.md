@@ -80,6 +80,7 @@ data into vector tiles that can be rendered dynamically.
 - [go-vtile-example](https://github.com/vicapow/go-vtile-example) - An example server written in Go
 - [Tegola](https://github.com/terranodo/tegola) - A MVT server written in pure Go that supports serving tiles from a PostGIS data provider.
 - [t-rex](https://github.com/pka/t-rex/) - MVT server in a single executable written in Rust. Serves tiles from PostGIS supporting custom tile grids.
+- [postserve](https://github.com/openmaptiles/postserve) - A small Python based tileserver using ST_AsMVT and ST_AsMVTGeom to generate vector tiles on the fly. Designed for use with PostGIS 2.4 and the OpenMapTiles project
 
 ## Low-level utilities
 
