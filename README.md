@@ -53,6 +53,7 @@ data into vector tiles that can be rendered dynamically.
 ## CLI Utilities
 
 - [mbview](https://github.com/mapbox/mbview) - Watch MBTiles in your localhost. View tiles in a basic Mapbox GL JS webapp locally
+- [MBUtil](https://github.com/mapbox/mbutil) - Import and export MBTiles to disk
 - [Datamaps](https://github.com/ericfischer/datamaps) C application that can be used to create vector tiles and store them in an mbtiles. See the `render-vector` command.
 - [tilemaker](https://github.com/systemed/tilemaker) - Command line tool to produce vector tiles directly from an .osm.pbf extract without an intermediate database.
 - [vector-tiles-producer](https://github.com/vross/vector-tiles-producer) Command line tool in C++ to creates vector tiles for a given area at chosen zoom levels using a Mapnik XML.
@@ -62,7 +63,7 @@ data into vector tiles that can be rendered dynamically.
 - [tileshrink](https://github.com/rastapasta/tileshrink) - Reduce the layer extent and simplify the resulting geometries of all vector tiles in an MBTiles
 - [tiler @GeoVation](https://github.com/Geovation/tiler) - Command line tool for converting GeoJSON, Shapefiles or PostGIS layer to raw Vector Tiles (or MBTiles)
 - [tiler @thomersch](https://github.com/thomersch/grandine/tree/master/cmd/tiler) - Command line tool to convert GeoJSON to Vector Tiles (written in Go language).
-- [geojson2mvt](https://github.com/NYCPlanning/geojson2mvt) - npm package for building a static vector tile tree for given xyz bounds from a geojson file (uses vt-geojson)
+- [geojson2mvt](https://github.com/NYCPlanning/geojson2mvt) - npm package for building a static vector tile tree for given xyz bounds from a geojson file (uses [geojson-vt](https://github.com/mapbox/geojson-vt))
 
 ## Mapbox GL JS Plugins
 
@@ -96,7 +97,7 @@ data into vector tiles that can be rendered dynamically.
 ## Articles
 
 - [Vector tiles remixed](http://gdunlop.github.io/Vector-tiles-remixed/) - guide to using [tilemaker](https://github.com/systemed/tilemaker) to generating vector tiles
-- [Build Your Own Static Vector Tile Pipeline](http://tech.geovation.uk/2017/05/19/build-your-own-static-vector-tile-pipeline/) - guide transforming, encoding and hosting tiles in the cloud; using ogr2ogr + tippecanoe + Mapbox GL JS
+- [Build Your Own Static Vector Tile Pipeline](https://geovation.github.io/build-your-own-static-vector-tile-pipeline) - guide transforming, encoding and hosting tiles in the cloud; using ogr2ogr + tippecanoe + Mapbox GL JS
 
 ## License
 
