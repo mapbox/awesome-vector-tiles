@@ -46,9 +46,13 @@ data into vector tiles that can be rendered dynamically.
 - [ArcGIS Pro](http://www.esri.com/en/software/arcgis-pro) - Generate vector tiles from maps authored in ArcGIS Pro or imported from ArcMap.
 - [MVT Styler](http://sputnik-maps.github.io/mvt-styler/) - map style editor for vector tiles.
 - [Maputnik](https://github.com/maputnik/editor) - A visual style editor for the Mapbox GL style specification.
+- [QGIS Vector Tiles Reader](https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin) - QGIS Python plugin which reads Mapbox Vector Tiles from local MBTiles file or remote
+- [Tiles à la Google Maps](http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/) - "Tiles à la Google Maps: Coordinates, Tile Bounds and Projection" - shows Z/X/Y indexes.
+- [mapbox-gl-inspect](https://github.com/lukasmartinelli/mapbox-gl-inspect) - Plugin for Mapbox GL JS to view the view and inspect VT features. 
 
 ## CLI Utilities
 
+- [mbview](https://github.com/mapbox/mbview) - Watch MBTiles in your localhost. View tiles in a basic Mapbox GL JS webapp locally
 - [Datamaps](https://github.com/ericfischer/datamaps) C application that can be used to create vector tiles and store them in an mbtiles. See the `render-vector` command.
 - [tilemaker](https://github.com/systemed/tilemaker) - Command line tool to produce vector tiles directly from an .osm.pbf extract without an intermediate database.
 - [vector-tiles-producer](https://github.com/vross/vector-tiles-producer) Command line tool in C++ to creates vector tiles for a given area at chosen zoom levels using a Mapnik XML.
@@ -57,13 +61,8 @@ data into vector tiles that can be rendered dynamically.
 - [tl](https://github.com/mojodna/tl) - An alternate command line interface to tilelive
 - [tileshrink](https://github.com/rastapasta/tileshrink) - Reduce the layer extent and simplify the resulting geometries of all vector tiles in an MBTiles
 - [tiler @GeoVation](https://github.com/Geovation/tiler) - Command line tool for converting GeoJSON, Shapefiles or PostGIS layer to raw Vector Tiles (or MBTiles)
-- [tiler @thomersch](https://github.com/thomersch/grandine/tree/master/cmd/tiler) - Command line tool to convert GEOJson to Vector Tiles (written in Go language).
+- [tiler @thomersch](https://github.com/thomersch/grandine/tree/master/cmd/tiler) - Command line tool to convert GeoJSON to Vector Tiles (written in Go language).
 - [geojson2mvt](https://github.com/NYCPlanning/geojson2mvt) - npm package for building a static vector tile tree for given xyz bounds from a geojson file (uses vt-geojson)
-
-## GUI Utilities (Web Apps, Desktop Apps)
-
-- [Tiles à la Google Maps](http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/) - "Tiles à la Google Maps: Coordinates, Tile Bounds and Projection" - shows Z/X/Y indexes.
-- [mapbox-gl-inspect](https://github.com/lukasmartinelli/mapbox-gl-inspect) - Plugin for Mapbox GL JS to view the view ans inspect VT features. 
 
 ## Mapbox GL JS Plugins
 
@@ -72,6 +71,7 @@ data into vector tiles that can be rendered dynamically.
 ## Servers
 
 - [tessera](https://github.com/mojodna/tessera) - Supports serving and rendering vector tiles. Uses the same core libraries as Mapbox Studio.
+- [tessella](https://github.com/urbica/tessella) - lightweight Node.js Mapbox Vector Tiles server. Inspired by tessera.
 - [tilestrata](https://github.com/naturalatlas/tilestrata) - with tilestrata-vt, it can generate Mapnik Vector Tiles; with [tilestrata-postgismvt](https://github.com/Stezii/tilestrata-postgismvt), it can serve Mapbox Vector Tiles from a PostGIS db
 - [SpatialServer (PGRestAPI)](https://github.com/spatialdev/PGRestAPI) - A multi-purpose GeoSpatial NodeJS web server created at [SpatialDev](http://spatialdev.com) that not only serves MBTiles stuffed with vector tiles, it can also cut vector tiles on the fly from a PostGIS database.
 - [Utilery](https://github.com/etalab/utilery) Server to generate vector tiles from PostGIS queries. Python based
@@ -85,6 +85,7 @@ data into vector tiles that can be rendered dynamically.
 - [Tegola](https://github.com/terranodo/tegola) - A MVT server written in pure Go that supports serving tiles from a PostGIS data provider.
 - [t-rex](https://github.com/pka/t-rex/) - MVT server in a single executable written in Rust. Serves tiles from PostGIS supporting custom tile grids.
 - [OSM Scout Server](https://rinigus.github.io/osmscout-server/) - Maps server providing tiles, geocoder, and router (written in C++).
+- [postserve](https://github.com/openmaptiles/postserve) - A small Python based tileserver using ST_AsMVT and ST_AsMVTGeom to generate vector tiles on the fly. Designed for use with PostGIS 2.4 and the OpenMapTiles project
 
 ## Low-level utilities
 
@@ -95,6 +96,7 @@ data into vector tiles that can be rendered dynamically.
 ## Articles
 
 - [Vector tiles remixed](http://gdunlop.github.io/Vector-tiles-remixed/) - guide to using [tilemaker](https://github.com/systemed/tilemaker) to generating vector tiles
+- [Build Your Own Static Vector Tile Pipeline](http://tech.geovation.uk/2017/05/19/build-your-own-static-vector-tile-pipeline/) - guide transforming, encoding and hosting tiles in the cloud; using ogr2ogr + tippecanoe + Mapbox GL JS
 
 ## License
 
