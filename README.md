@@ -38,6 +38,7 @@ data into vector tiles that can be rendered dynamically.
 * [Leaflet.VectorGrid](https://github.com/IvanSanchez/Leaflet.VectorGrid) - Display gridded vector data (sliced GeoJSON, TopoJSON or Mapbox Vector Tiles) in Leaflet 1.0.0
 * [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/) - Draw vector tile layers as part of your web map. Rendering done via `mapbox-gl-js` integration.
 * [mapscii](https://github.com/rastapasta/mapscii) - A Vector Tile to Braille and ASCII renderer for xterm-compatible terminals
+* [Unofficial Mapbox GL Native bindings for Qt QML](https://github.com/rinigus/mapbox-gl-qml) - Qt QML bindings for Qt 5.6 and higher. 
 
 ### Applications / Command line tools
 
