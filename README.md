@@ -21,6 +21,7 @@ data into vector tiles that can be rendered dynamically.
 - [cached-vector-tile](https://github.com/developmentseed/cached-vector-tile) - An alternative implementation of the vector-tile-js interface, backed by plain JS objects/arrays rather than parsed-on-demand protobuf data. Trades away memory efficiency for faster feature.loadGeometry() calls.
 - [tilegrinder](https://github.com/rastapasta/tilegrinder) - A helper library for applying a data altering function on each vector tile in an MBTiles, using the native protobuf wrapper for de- and encoding, recompressing the results and storing them either in an MBTiles or as single files.
 - [SwiftVectorTiles](https://github.com/manimaul/SwiftVectorTiles) - A Swift encoder for vector tiles according to the Mapbox vector tile spec.
+- [orb](https://github.com/paulmach/orb) - A Go geometry library with mvt <-> geojson support.
 
 ## Clients
 
