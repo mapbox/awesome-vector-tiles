@@ -58,6 +58,7 @@ data into vector tiles that can be rendered dynamically.
 - [mbview](https://github.com/mapbox/mbview) - Watch MBTiles in your localhost. View tiles in a basic Mapbox GL JS webapp locally
 - [tippecanoe](https://github.com/mapbox/tippecanoe) - Build vector tilesets from large collections of GeoJSON features.
 - [tilemaker](https://github.com/systemed/tilemaker) - Command line tool to produce vector tiles directly from an .osm.pbf extract without an intermediate database.
+- [mapbox-filter](https://github.com/ondrap/mapbox-filter) - Filter MBTiles according to Mapbox GL JS styles, shrink MBTiles directly, serve locally over http, publish to S3-compatibile storage
 - [vector-tiles-producer](https://github.com/vross/vector-tiles-producer) Command line tool in C++ to creates vector tiles for a given area at chosen zoom levels using a Mapnik XML. :warning: no longer maintained
 - [vt-geojson](https://github.com/developmentseed/vt-geojson) - decodes vector tiles to GeoJSON FeatureCollections
 - [tl](https://github.com/mojodna/tl) - An alternate command line interface to tilelive
