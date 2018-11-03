@@ -41,6 +41,7 @@ data into vector tiles that can be rendered dynamically.
 * [mapscii](https://github.com/rastapasta/mapscii) - A Vector Tile to Braille and ASCII renderer for xterm-compatible terminals
 * [Unofficial Mapbox GL Native bindings for Qt QML](https://github.com/rinigus/mapbox-gl-qml) - Qt QML bindings for Qt 5.6 and higher.
 * [Mapbox-vector-tiles-basic-js-renderer](https://github.com/landtechnologies/Mapbox-vector-tiles-basic-js-renderer) - A fork of mapbox-gl-js giving you full control over rendering of specific tiles, also provides vector tile overlay for google maps.
+* [AliFlux VectorTileRenderer](https://github.com/AliFlux/VectorTileRenderer) - A highly customizable vector tile renderer built using C# for .Net platform. Comes with bindings for popular .Net map components such as Mapsuii and Gmaps.Net.
 
 ### Applications / Command line tools
 
