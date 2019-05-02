@@ -53,6 +53,7 @@ data into vector tiles that can be rendered dynamically.
 - [Maputnik](https://github.com/maputnik/editor) - A visual style editor for the Mapbox GL style specification.
 - [QGIS Vector Tiles Reader](https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin) - QGIS Python plugin which reads Mapbox Vector Tiles from local MBTiles file or remote
 - [mapbox-gl-inspect](https://github.com/lukasmartinelli/mapbox-gl-inspect) - Plugin for Mapbox GL JS to view the view and inspect VT features.
+- [Fresco](https://github.com/go-spatial/fresco) - is an open source Mapbox Vector Tile Style editor.
 
 ## CLI Utilities
 
@@ -88,7 +89,7 @@ data into vector tiles that can be rendered dynamically.
 - [Portal for ArcGIS](http://www.esri.com/software/arcgis/arcgisserver/extensions/portal-for-arcgis) - Supports serving vector tiles and rendering in the mapping application powered by the ArcGIS API for JavaScript
 - [tilesplash](https://github.com/faradayio/tilesplash) - A light and quick nodejs webserver for serving topojson or mapbox vector tiles from a postgis backend
 - [go-vtile-example](https://github.com/vicapow/go-vtile-example) - An example server written in Go
-- [Tegola](https://github.com/terranodo/tegola) - A MVT server written in pure Go that supports serving tiles from a PostGIS data provider.
+- [Tegola](https://github.com/go-spatial/tegola) - is a vector tile server delivering Mapbox Vector Tiles with support for PostGIS and GeoPackage data providers.
 - [t-rex](https://github.com/pka/t-rex/) - MVT server in a single executable written in Rust. Serves tiles from PostGIS supporting custom tile grids.
 - [OSM Scout Server](https://rinigus.github.io/osmscout-server/) - Maps server providing vector and raster tiles, geocoder, and router. Designed to be used on Linux (mobile and PC) to provide offline maps; written in C++
 - [postserve](https://github.com/openmaptiles/postserve) - A small Python based tileserver using ST_AsMVT and ST_AsMVTGeom to generate vector tiles on the fly. Designed for use with PostGIS 2.4 and the OpenMapTiles project
