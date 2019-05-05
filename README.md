@@ -22,6 +22,7 @@ data into vector tiles that can be rendered dynamically.
 - [tilegrinder](https://github.com/rastapasta/tilegrinder) - A helper library for applying a data altering function on each vector tile in an MBTiles, using the native protobuf wrapper for de- and encoding, recompressing the results and storing them either in an MBTiles or as single files.
 - [SwiftVectorTiles](https://github.com/manimaul/SwiftVectorTiles) - A Swift encoder for vector tiles according to the Mapbox vector tile spec.
 - [orb](https://github.com/paulmach/orb) - A Go geometry library with mvt <-> geojson support.
+- [Charger](https://github.com/marauder-io/charger) - A Kotlin library providing vector tiles encoding, transformation and clipping functionalities.
 
 ## Clients
 
@@ -42,6 +43,7 @@ data into vector tiles that can be rendered dynamically.
 * [Unofficial Mapbox GL Native bindings for Qt QML](https://github.com/rinigus/mapbox-gl-qml) - Qt QML bindings for Qt 5.6 and higher.
 * [Mapbox-vector-tiles-basic-js-renderer](https://github.com/landtechnologies/Mapbox-vector-tiles-basic-js-renderer) - A fork of mapbox-gl-js giving you full control over rendering of specific tiles, also provides vector tile overlay for google maps.
 * [AliFlux VectorTileRenderer](https://github.com/AliFlux/VectorTileRenderer) - A highly customizable vector tile renderer built using C# for .Net platform. Comes with bindings for Mapsui and Gmap.Net components.
+* [Azure Maps Web SDK](https://docs.microsoft.com/azure/azure-maps/) - Render vector tile layers on an interactive web map control using JavaScript or TypeScript.
 
 ### Applications / Command line tools
 
@@ -53,6 +55,9 @@ data into vector tiles that can be rendered dynamically.
 - [Maputnik](https://github.com/maputnik/editor) - A visual style editor for the Mapbox GL style specification.
 - [QGIS Vector Tiles Reader](https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin) - QGIS Python plugin which reads Mapbox Vector Tiles from local MBTiles file or remote
 - [mapbox-gl-inspect](https://github.com/lukasmartinelli/mapbox-gl-inspect) - Plugin for Mapbox GL JS to view the view and inspect VT features.
+- [Mapbox MVT Chrome Extension](https://chrome.google.com/webstore/detail/mapbox-mvt/mfikcokdfehaofebfhoehbajfgbofdpk) - Google Chrome extension that parses loaded vector tiles on a fly, shows short statistics and shows each vector tile as GeoJSON
+- [Fresco](https://github.com/go-spatial/fresco) - is an open source Mapbox Vector Tile Style editor.
+
 
 ## CLI Utilities
 
@@ -88,14 +93,16 @@ data into vector tiles that can be rendered dynamically.
 - [Portal for ArcGIS](http://www.esri.com/software/arcgis/arcgisserver/extensions/portal-for-arcgis) - Supports serving vector tiles and rendering in the mapping application powered by the ArcGIS API for JavaScript
 - [tilesplash](https://github.com/faradayio/tilesplash) - A light and quick nodejs webserver for serving topojson or mapbox vector tiles from a postgis backend
 - [go-vtile-example](https://github.com/vicapow/go-vtile-example) - An example server written in Go
-- [Tegola](https://github.com/terranodo/tegola) - A MVT server written in pure Go that supports serving tiles from a PostGIS data provider.
+- [Tegola](https://github.com/go-spatial/tegola) - is a vector tile server delivering Mapbox Vector Tiles with support for PostGIS and GeoPackage data providers.
 - [t-rex](https://github.com/pka/t-rex/) - MVT server in a single executable written in Rust. Serves tiles from PostGIS supporting custom tile grids.
 - [OSM Scout Server](https://rinigus.github.io/osmscout-server/) - Maps server providing vector and raster tiles, geocoder, and router. Designed to be used on Linux (mobile and PC) to provide offline maps; written in C++
 - [postserve](https://github.com/openmaptiles/postserve) - A small Python based tileserver using ST_AsMVT and ST_AsMVTGeom to generate vector tiles on the fly. Designed for use with PostGIS 2.4 and the OpenMapTiles project
 - [SpatialServer (PGRestAPI)](https://github.com/spatialdev/PGRestAPI) - A multi-purpose GeoSpatial NodeJS web server created at [SpatialDev](http://spatialdev.com) that not only serves MBTiles stuffed with vector tiles, it can also cut vector tiles on the fly from a PostGIS database. [:warning:](https://github.com/spatialdev/PGRestAPI/issues/142#issuecomment-231132808) No longer maintained.
 - [OpenMapTiles](https://github.com/openmaptiles) - Set of open-source tools for self-hosting of OpenStreetMap maps in more than 50 languages. It provides both raster as well as vector tiles, WMS and WMTS services for GIS programs, support for JavaScript viewers and mobile SDK.
-- [Hastile](https://github.com/sitewisely/hastile) - Haskell web server using PostGIS to deliver vector tiles.
+- [Hastile](https://github.com/indicatrix/hastile) - Haskell web server using PostGIS to deliver vector tiles.
 - [MapServer](http://mapserver.org/) - Open Source platform for publishing spatial data and interactive mapping applications to the web. MVT output available in 7.2
+- [Tyler](https://github.com/marauder-io/tyler) - An Open Source tiling server maintaining a Vector Tile storage providing a REST interface.
+- [martin](https://github.com/urbica/martin) - is a PostGIS vector tiles server suitable for large databases.
 
 ## Low-level utilities
 
