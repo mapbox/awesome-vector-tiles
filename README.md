@@ -101,7 +101,7 @@ data into vector tiles that can be rendered dynamically.
 - [SpatialServer (PGRestAPI)](https://github.com/spatialdev/PGRestAPI) - A multi-purpose GeoSpatial NodeJS web server created at [SpatialDev](http://spatialdev.com) that not only serves MBTiles stuffed with vector tiles, it can also cut vector tiles on the fly from a PostGIS database. [:warning:](https://github.com/spatialdev/PGRestAPI/issues/142#issuecomment-231132808) No longer maintained.
 - [OpenMapTiles](https://github.com/openmaptiles) - Set of open-source tools for self-hosting of OpenStreetMap maps in more than 50 languages. It provides both raster as well as vector tiles, WMS and WMTS services for GIS programs, support for JavaScript viewers and mobile SDK.
 - [Hastile](https://github.com/indicatrix/hastile) - Haskell web server using PostGIS to deliver vector tiles.
-- [MapServer](http://mapserver.org/) - Open Source platform for publishing spatial data and interactive mapping applications to the web. MVT output available in 7.2
+- [MapServer](https://mapserver.org/) - Open Source platform, written in C, for publishing spatial data and interactive mapping applications to the web. MVT output available since version 7.2
 - [Tyler](https://github.com/marauder-io/tyler) - An Open Source tiling server maintaining a Vector Tile storage providing a REST interface.
 - [martin](https://github.com/urbica/martin) - is a PostGIS vector tiles server suitable for large databases.
 
