@@ -104,6 +104,7 @@ data into vector tiles that can be rendered dynamically.
 - [MapServer](https://mapserver.org/) - Open Source platform, written in C, for publishing spatial data and interactive mapping applications to the web. MVT output available since version 7.2
 - [Tyler](https://github.com/marauder-io/tyler) - An Open Source tiling server maintaining a Vector Tile storage providing a REST interface.
 - [martin](https://github.com/urbica/martin) - is a PostGIS vector tiles server suitable for large databases.
+- [djangorestframework-mvt](https://github.com/corteva/djangorestframework-mvt) - A Django REST Framework extension for creating views that serve Postgres data as tiles.  Tiles can be paginated and filtered by their properties.
 
 ## Low-level utilities
 
