@@ -86,6 +86,7 @@ data into vector tiles that can be rendered dynamically.
 - [ArcGIS Online](http://www.esri.com/software/arcgis/arcgisonline) - Supports serving vector tiles and rendering in the mapping application powered by the ArcGIS API for JavaScript
 - [Cloud-Tileserver](https://github.com/henrythasler/cloud-tileserver) - Serve vector tiles with AWS. Includes a Lambda-Function written in Typescript to dynamically create vector tiles with postgis. Terraform configuration and step-by-step tutorial is also included.
 - [djangorestframework-mvt](https://github.com/corteva/djangorestframework-mvt) - A Django REST Framework extension for creating views that serve Postgres data as tiles.  Tiles can be paginated and filtered by their properties.
+- [GeoServer](http://geoserver.org) - java web application for sharing and editing geospatial data. [Vector tile extension](https://docs.geoserver.org/latest/en/user/extensions/vectortiles/index.html) available since GeoServer 2.11.
 - [go-vtile-example](https://github.com/vicapow/go-vtile-example) - An example server written in Go
 - [Hastile](https://github.com/indicatrix/hastile) - Haskell web server using PostGIS to deliver vector tiles.
 - [Kartotherian](https://github.com/kartotherian/kartotherian) Wikipedia tile server with [Tilerator](https://github.com/kartotherian/tilerator) backend tile pre-generator
