@@ -85,6 +85,7 @@ data into vector tiles that can be rendered dynamically.
 
 - [ArcGIS Online](http://www.esri.com/software/arcgis/arcgisonline) - Supports serving vector tiles and rendering in the mapping application powered by the ArcGIS API for JavaScript
 - [Cloud-Tileserver](https://github.com/henrythasler/cloud-tileserver) - Serve vector tiles with AWS. Includes a Lambda-Function written in Typescript to dynamically create vector tiles with postgis. Terraform configuration and step-by-step tutorial is also included.
+- [ClusterBuster](https://github.com/chargetrip/clusterbuster) A Mapbox Vector Tile (MVT) map tiling server with built-in clustering and filtering.
 - [djangorestframework-mvt](https://github.com/corteva/djangorestframework-mvt) - A Django REST Framework extension for creating views that serve Postgres data as tiles.  Tiles can be paginated and filtered by their properties.
 - [GeoServer](http://geoserver.org) - java web application for sharing and editing geospatial data. [Vector tile extension](https://docs.geoserver.org/latest/en/user/extensions/vectortiles/index.html) available since GeoServer 2.11.
 - [go-vtile-example](https://github.com/vicapow/go-vtile-example) - An example server written in Go
@@ -107,7 +108,6 @@ data into vector tiles that can be rendered dynamically.
 - [Tyler](https://github.com/marauder-io/tyler) - An Open Source tiling server maintaining a Vector Tile storage providing a REST interface.
 - [SpatialServer (PGRestAPI)](https://github.com/spatialdev/PGRestAPI) - A multi-purpose GeoSpatial NodeJS web server created at [SpatialDev](http://spatialdev.com) that not only serves MBTiles stuffed with vector tiles, it can also cut vector tiles on the fly from a PostGIS database. [:warning:](https://github.com/spatialdev/PGRestAPI/issues/142#issuecomment-231132808) No longer maintained.
 - [Utilery](https://github.com/etalab/utilery) Server to generate vector tiles from PostGIS queries. Python based [:warning:](https://github.com/tilery/utilery/issues/6) no longer maintained
-
 
 ## Low-level utilities
 
