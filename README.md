@@ -124,7 +124,7 @@ data into vector tiles that can be rendered dynamically.
 - [Vector tiles remixed](http://gdunlop.github.io/Vector-tiles-remixed/) - guide to using [tilemaker](https://github.com/systemed/tilemaker) to generating vector tiles
 - [Build Your Own Static Vector Tile Pipeline](https://geovation.github.io/build-your-own-static-vector-tile-pipeline) - guide transforming, encoding and hosting tiles in the cloud; using ogr2ogr + tippecanoe + Mapbox GL JS
 - [Using the new MVT function in PostGIS](https://medium.com/nycplanninglabs/using-the-new-mvt-function-in-postgis-75f8addc1d68) - Building a vector tile service with PostGIS, express, and pg-promise.
-- [Serverless Vector Tiles on AWS](https://github.com/addresscloud/serverless-tiles/raw/master/Serverless%20Vector%20Tiles%20on%20AWS.pdf)
+- [Serverless Vector Tiles on AWS](https://github.com/addresscloud/serverless-tiles)
 
 ## License
 
