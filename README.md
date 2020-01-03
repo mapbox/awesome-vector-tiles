@@ -56,7 +56,7 @@ data into vector tiles that can be rendered dynamically.
 - [Maputnik](https://github.com/maputnik/editor) - A visual style editor for the Mapbox GL style specification.
 - [QGIS Vector Tiles Reader](https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin) - QGIS Python plugin which reads Mapbox Vector Tiles from local MBTiles file or remote
 - [mapbox-gl-inspect](https://github.com/lukasmartinelli/mapbox-gl-inspect) - Plugin for Mapbox GL JS to view the view and inspect VT features.
-- [Mapbox MVT Chrome Extension](https://chrome.google.com/webstore/detail/mapbox-mvt/mfikcokdfehaofebfhoehbajfgbofdpk) - Google Chrome extension that parses loaded vector tiles on a fly, shows short statistics and shows each vector tile as GeoJSON
+- [Mapbox MVT Chrome Extension](https://chrome.google.com/webstore/detail/mapbox-mvt/mfikcokdfehaofebfhoehbajfgbofdpk) - Google Chrome extension that parses loaded vector tiles on the fly, shows short statistics and shows each vector tile as GeoJSON
 - [Fresco](https://github.com/go-spatial/fresco) - is an open source Mapbox Vector Tile Style editor.
 
 
