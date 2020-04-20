@@ -77,6 +77,7 @@ data into vector tiles that can be rendered dynamically.
 - [MBUtil](https://github.com/mapbox/mbutil) - Import and export MBTiles to disk :warning: no longer maintained
 - [Datamaps](https://github.com/ericfischer/datamaps) C application that can be used to create vector tiles and store them in an mbtiles. See the `render-vector` command. :warning: no longer maintained, use tippecanoe instead
 - [vt2geojson](https://github.com/wangyoucao577/vt2geojson) Command line tool to convert Vector Tiles to GeoJSON (written in `Go` language based on the awesome [orb](https://github.com/paulmach/orb) package).    
+- [tileinfo](https://www.npmjs.com/package/tileinfo) Display TileJSON info about an mbtiles file.
 
 ## Mapbox GL JS Plugins
 
