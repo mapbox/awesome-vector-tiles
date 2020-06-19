@@ -55,6 +55,7 @@ data into vector tiles that can be rendered dynamically.
 - [ArcGIS Pro](http://www.esri.com/en/software/arcgis-pro) - Generate vector tiles from maps authored in ArcGIS Pro or imported from ArcMap.
 - [MVT Styler](http://sputnik-maps.github.io/mvt-styler/) - map style editor for vector tiles.
 - [Maputnik](https://github.com/maputnik/editor) - A visual style editor for the Mapbox GL style specification.
+- [QGIS](https://qgis.org/) - supports vector tiles as a new map layer type since 3.14 release. It reads and displays styled vector tiles, adds styling GUI and writing (available as a processing toolbox algorithm).
 - [QGIS Vector Tiles Reader](https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin) - QGIS Python plugin which reads Mapbox Vector Tiles from local MBTiles file or remote
 - [mapbox-gl-inspect](https://github.com/lukasmartinelli/mapbox-gl-inspect) - Plugin for Mapbox GL JS to view the view and inspect VT features.
 - [Mapbox MVT Chrome Extension](https://chrome.google.com/webstore/detail/mapbox-mvt/mfikcokdfehaofebfhoehbajfgbofdpk) - Google Chrome extension that parses loaded vector tiles on the fly, shows short statistics and shows each vector tile as GeoJSON
