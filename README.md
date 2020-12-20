@@ -79,7 +79,9 @@ data into vector tiles that can be rendered dynamically.
 - [OGR MVT](http://gdal.org/drv_mvt.html) and [MBTiles](http://gdal.org/frmt_mbtiles.html) - The GDAL/OGR MVT and MBTILES drivers can be used to read and write vector tiles, respectively as tileset on the filesystem or in a mbtiles container (GDAL >= 2.3.0)
 - [MBUtil](https://github.com/mapbox/mbutil) - Import and export MBTiles to disk :warning: no longer maintained
 - [Datamaps](https://github.com/ericfischer/datamaps) C application that can be used to create vector tiles and store them in an mbtiles. See the `render-vector` command. :warning: no longer maintained, use tippecanoe instead
-- [vt2geojson](https://github.com/wangyoucao577/vt2geojson) Command line tool to convert Vector Tiles to GeoJSON (written in `Go` language based on the awesome [orb](https://github.com/paulmach/orb) package).    
+- [vt2geojson](https://github.com/wangyoucao577/vt2geojson) Command line tool to convert Vector Tiles to GeoJSON (written in `Go` language based on the awesome [orb](https://github.com/paulmach/orb) package).
+- [python-vt2geojson](https://github.com/Amyantis/python-vt2geojson) - Command line tool and Python package for converting vector tiles into GeoJSON.
+- [vt2geojson](https://github.com/mapbox/vt2geojson) - Command line tool and npm package for converting vector tiles into GeoJSON.
 - [tileinfo](https://www.npmjs.com/package/tileinfo) Display TileJSON info about an mbtiles file.
 
 ## Mapbox GL JS Plugins
