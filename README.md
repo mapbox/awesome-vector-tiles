@@ -24,6 +24,7 @@ data into vector tiles that can be rendered dynamically.
 - [SwiftVectorTiles](https://github.com/manimaul/SwiftVectorTiles) - A Swift encoder for vector tiles according to the Mapbox vector tile spec.
 - [orb](https://github.com/paulmach/orb) - A Go geometry library with mvt <-> geojson support.
 - [Charger](https://github.com/marauder-io/charger) - A Kotlin library providing vector tiles encoding, transformation and clipping functionalities.
+- [dart-vector-tile](https://github.com/saigontek/dart-vector-tile) - A simple Dart package to encode & decode Mapbox Vector Tile.
 
 ## Clients
 
