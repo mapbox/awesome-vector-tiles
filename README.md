@@ -111,6 +111,7 @@ data into vector tiles that can be rendered dynamically.
 - [tessella](https://github.com/urbica/tessella) - lightweight Node.js Mapbox Vector Tiles server. Inspired by tessera.
 - [tessera](https://github.com/mojodna/tessera) - Supports serving and rendering vector tiles. Uses the same core libraries as Mapbox Studio.
 - [tileserver](https://github.com/tilezen/tileserver) Mapzen Vector Tile Service.
+- [tileserver-gl](https://github.com/maptiler/tileserver-gl) Vector and raster maps with GL styles. Server side rendering by Mapbox GL Native. Map tile server for Mapbox GL JS, Android, iOS, Leaflet, OpenLayers, GIS via WMTS, etc.
 - [tilesplash](https://github.com/faradayio/tilesplash) - A light and quick nodejs webserver for serving topojson or mapbox vector tiles from a postgis backend
 - [TileStache](https://github.com/TileStache/TileStache) added support for Mapbox Vector tiles via .pbf extension requests.
 - [tilestrata](https://github.com/naturalatlas/tilestrata) - with tilestrata-vt, it can generate Mapnik Vector Tiles; with [tilestrata-postgismvt](https://github.com/Stezii/tilestrata-postgismvt), it can serve Mapbox Vector Tiles from a PostGIS db
