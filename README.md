@@ -48,6 +48,7 @@ data into vector tiles that can be rendered dynamically.
 * [QtPBFImagePlugin](https://github.com/tumic0/QtPBFImagePlugin) - Qt image plugin for displaying Mapbox vector tiles.
 * [AliFlux VectorTileRenderer](https://github.com/AliFlux/VectorTileRenderer) - A highly customizable vector tile renderer built using C# for .Net platform. Comes with bindings for Mapsui and Gmap.Net components.
 * [Azure Maps Web SDK](https://docs.microsoft.com/azure/azure-maps/) - Render vector tile layers on an interactive web map control using JavaScript or TypeScript.
+* [Vector Tiles Google Maps](https://github.com/techjb/Vector-Tiles-Google-Maps) - Render vector tile layers on Google Maps.
 
 ### Applications / Command line tools
 
