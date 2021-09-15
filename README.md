@@ -84,7 +84,8 @@ data into vector tiles that can be rendered dynamically.
 - [vt2geojson](https://github.com/wangyoucao577/vt2geojson) Command line tool to convert Vector Tiles to GeoJSON (written in `Go` language based on the awesome [orb](https://github.com/paulmach/orb) package).
 - [python-vt2geojson](https://github.com/Amyantis/python-vt2geojson) - Command line tool and Python package for converting vector tiles into GeoJSON.
 - [vt2geojson](https://github.com/mapbox/vt2geojson) - Command line tool and npm package for converting vector tiles into GeoJSON.
-- [tileinfo](https://www.npmjs.com/package/tileinfo) Display TileJSON info about an mbtiles file.
+- [tileinfo](https://www.npmjs.com/package/tileinfo) - Display TileJSON info about an mbtiles file.
+- [XYZ](https://github.com/dechristopher/xyz) - Simple tool to procedurally prime XYZ tile caches to a given zoom level.
 
 ## Mapbox GL JS Plugins
 
