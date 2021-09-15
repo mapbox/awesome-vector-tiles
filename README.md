@@ -100,6 +100,7 @@ data into vector tiles that can be rendered dynamically.
 - [go-vtile-example](https://github.com/vicapow/go-vtile-example) - An example server written in Go
 - [Hastile](https://github.com/indicatrix/hastile) - Haskell web server using PostGIS to deliver vector tiles.
 - [Kartotherian](https://github.com/kartotherian/kartotherian) Wikipedia tile server with [Tilerator](https://github.com/kartotherian/tilerator) backend tile pre-generator
+- [LOD](https://github.com/tile-fund/lod) - A thin map tile proxy with in-memory caching and a slim authentication backend.
 - [MapServer](https://mapserver.org/) - Open Source platform, written in C, for publishing spatial data and interactive mapping applications to the web. MVT output available since version 7.2
 - [martin](https://github.com/urbica/martin) - is a PostGIS vector tiles server suitable for large databases.
 - [mbtileserver](https://github.com/consbio/mbtileserver) - A simple Go-based server for map tiles stored in mbtiles format.
