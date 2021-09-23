@@ -121,6 +121,7 @@ data into vector tiles that can be rendered dynamically.
 - [Utilery](https://github.com/etalab/utilery) Server to generate vector tiles from PostGIS queries. Python based [:warning:](https://github.com/tilery/utilery/issues/6) no longer maintained.
 - [pg_tileserv](https://github.com/CrunchyData/pg_tileserv) - A very thin PostGIS-only tile server in Go. Takes in HTTP tile requests, executes SQL, returns MVT tiles.
 - [ngx_http_mbtiles_module](https://github.com/durkie/ngx_http_mbtiles_module) - Serve mbtiles files directly from nginx. Ideal for low-resource environments or situations where the mbtiles contents are changing frequently.
+- [TiMVT](https://github.com/developmentseed/timvt) - A lightweight PostGIS based dynamic vector tile server.
 
 ## Low-level utilities
 
