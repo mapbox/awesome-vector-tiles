@@ -86,6 +86,7 @@ data into vector tiles that can be rendered dynamically.
 - [vt2geojson](https://github.com/mapbox/vt2geojson) - Command line tool and npm package for converting vector tiles into GeoJSON.
 - [tileinfo](https://www.npmjs.com/package/tileinfo) - Display TileJSON info about an mbtiles file.
 - [XYZ](https://github.com/dechristopher/xyz) - Simple tool to procedurally prime XYZ tile caches to a given zoom level.
+- [Flatmap](https://github.com/onthegomap/flatmap) - Command-line Java program to build planet-scale vector tilesets from OpenStreetMap data in a few hours.
 
 ## Mapbox GL JS Plugins
 
