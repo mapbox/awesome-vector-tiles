@@ -31,7 +31,7 @@ data into vector tiles that can be rendered dynamically.
 - [Mapbox GL Native](https://github.com/mapbox/mapbox-gl-native) - C++/OpenGL vector maps library with native SDKs for Android, iOS, Node.js, macOS, and Qt
 - [Mapbox GL JS](https://github.com/mapbox/mapbox-gl-js) - JavaScript/WebGL vector maps library.
 - [MapLibre GL](https://github.com/maplibre/maplibre-gl-js) - Is a community led fork derived from Mapbox GL JS prior to their switch to a non-OSS license.
-- [OpenLayers 3](https://github.com/openlayers/openlayers/pull/4219) - JavaScript vector & raster library.
+- [OpenLayers](https://openlayers.org/en/latest/examples/mapbox-vector-layer.html) - JavaScript vector & raster library.
 - [WhirlyGlobe/Maply](https://github.com/mousebird/WhirlyGlobe/tree/master/ios/library/WhirlyGlobe-MaplyComponent/src/vector_tiles/MaplyVectorTiles.mm) - Objective C code that is able to read and render vector tiles(and style with mapnik xml) on iOS devices.
 - [Leaflet.MapboxVectorTile](https://github.com/SpatialServer/Leaflet.MapboxVectorTile) is able to read PBF MapboxVectorTiles from a REST endpoint and render them as a TileLayer on a Leaflet Map. Use this option if you want to utilize vector tiles on a standard Leaflet web map without needing WebGL.
 - [CARTO Mobile SDK](https://github.com/CartoDB/mobile-sdk) - C++ maps library focused on offline features, for iOS, Android, Windows Phone and Xamarin with bindings for Java, Objective-C and C#. Based on [Nutiteq Maps SDK](https://developer.nutiteq.com), but open source and uses CartoCSS.
