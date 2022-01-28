@@ -124,6 +124,7 @@ data into vector tiles that can be rendered dynamically.
 - [pg_tileserv](https://github.com/CrunchyData/pg_tileserv) - A very thin PostGIS-only tile server in Go. Takes in HTTP tile requests, executes SQL, returns MVT tiles.
 - [ngx_http_mbtiles_module](https://github.com/durkie/ngx_http_mbtiles_module) - Serve mbtiles files directly from nginx. Ideal for low-resource environments or situations where the mbtiles contents are changing frequently.
 - [TiMVT](https://github.com/developmentseed/timvt) - A lightweight PostGIS based dynamic vector tile server.
+- [Planetiler](https://github.com/onthegomap/planetiler) - Planetiler (pla·nuh·tai·lr, formerly named "Flatmap") is a tool that generates Mapbox Vector Tiles from geographic data sources like OpenStreetMap.
 
 ## Low-level utilities
 
