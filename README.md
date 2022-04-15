@@ -87,6 +87,7 @@ data into vector tiles that can be rendered dynamically.
 - [tileinfo](https://www.npmjs.com/package/tileinfo) - Display TileJSON info about an mbtiles file.
 - [XYZ](https://github.com/dechristopher/xyz) - Simple tool to procedurally prime XYZ tile caches to a given zoom level.
 - [Planetiler](https://github.com/onthegomap/planetiler) - Command-line Java program to build planet-scale vector tilesets from OpenStreetMap data in a few hours.
+- [sequentially-generate-planet-mbtiles](https://github.com/lambdajack/sequentially-generate-planet-mbtiles) - Easily generate planet-scale vector tilesets on low memory / low cpu count devices.
 
 ## Mapbox GL JS Plugins
 
