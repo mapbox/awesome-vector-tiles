@@ -17,6 +17,7 @@ data into vector tiles that can be rendered dynamically.
 - [mapbox-vector-tile](https://github.com/mapzen/mapbox-vector-tile) is a Python package for vector tile encoding. Used in Mapzen's vector tile service [tileserver](https://github.com/tilezen/tileserver) and TileStache. [:warning:](https://github.com/tilezen/mapbox-vector-tile/issues/42) Only support V1 Tile spec and not V2, no longer maintained
 - [geojson-vt](https://github.com/mapbox/geojson-vt) - Slice GeoJSON into vector tiles on the fly in the browser.
 - [geojson2vt](https://github.com/geometalab/geojson2vt) - Python port of [geojson-vt](https://github.com/mapbox/geojson-vt) to convert GeoJSON into vector tiles.
+- [vt2pbf](https://github.com/DenysMoskalenko/vt2pbf) - Python port of [vt-pbf](https://github.com/mapbox/vt-pbf) encode vector tiles into pbf.
 - [java-vector-tile](https://github.com/ElectronicChartCentre/java-vector-tile) - A java encoder and decoder for vector tiles.
 - [mapbox-vector-tile-java](https://github.com/wdtinc/mapbox-vector-tile-java) - Encode and decode v2.1 Mapbox Vector Tiles. Convert JTS Geometry to and from MVT features, including simple user data support. Utility functions for converting world coordinates to MVT coordinates and clipping to a tile envelope.
 - [cached-vector-tile](https://github.com/developmentseed/cached-vector-tile) - An alternative implementation of the vector-tile-js interface, backed by plain JS objects/arrays rather than parsed-on-demand protobuf data. Trades away memory efficiency for faster feature.loadGeometry() calls.
