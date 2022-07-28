@@ -12,7 +12,6 @@ data into vector tiles that can be rendered dynamically.
 - [node-mapnik](https://github.com/mapnik/node-mapnik) - Node.js API for vector tiles which depends on `mapnik-vector-tile`
 - [vector-tile-cs](https://github.com/mapbox/vector-tile-cs) - Parses vector tiles with C# (native C# implementation, no dependencies).
 - [mapbox-vector-tile-cs](https://github.com/bertt/mapbox-vector-tile-cs) - Parses vector tiles with C# (uses protobuf-net).
-- [tilelive-bridge](https://github.com/mapbox/tilelive-bridge) - Implements [Tilelive API](https://github.com/mapbox/tilelive.js/blob/master/API.md) for creating vector tiles from traditional Mapnik datasources in Node.js.
 - [tilelive-vector](https://github.com/mapbox/tilelive-vector) - Implements [Tilelive API](https://github.com/mapbox/tilelive.js/blob/master/API.md) for reading vector tiles and rendering to image tiles in Node.js.
 - [mapbox-vector-tile](https://github.com/mapzen/mapbox-vector-tile) is a Python package for vector tile encoding. Used in Mapzen's vector tile service [tileserver](https://github.com/tilezen/tileserver) and TileStache. [:warning:](https://github.com/tilezen/mapbox-vector-tile/issues/42) Only support V1 Tile spec and not V2, no longer maintained
 - [geojson-vt](https://github.com/mapbox/geojson-vt) - Slice GeoJSON into vector tiles on the fly in the browser.
@@ -24,7 +23,6 @@ data into vector tiles that can be rendered dynamically.
 - [tilegrinder](https://github.com/rastapasta/tilegrinder) - A helper library for applying a data altering function on each vector tile in an MBTiles, using the native protobuf wrapper for de- and encoding, recompressing the results and storing them either in an MBTiles or as single files.
 - [SwiftVectorTiles](https://github.com/manimaul/SwiftVectorTiles) - A Swift encoder for vector tiles according to the Mapbox vector tile spec.
 - [orb](https://github.com/paulmach/orb) - A Go geometry library with mvt <-> geojson support.
-- [Charger](https://github.com/marauder-io/charger) - A Kotlin library providing vector tiles encoding, transformation and clipping functionalities.
 - [dart-vector-tile](https://github.com/saigontek/dart-vector-tile) - A simple Dart package to encode & decode Mapbox Vector Tile.
 
 ## Clients
@@ -136,7 +134,6 @@ data into vector tiles that can be rendered dynamically.
 - [vt-pbf](https://github.com/anandthakker/vt-pbf) serialize JavaScript objects representing vector tiles into binary Protocol Buffer encodings of vector tiles
 - [vtzero](https://github.com/mapbox/vtzero) - minimalist vector tile decoder and encoder in C++
 - [mvt-fixtures](https://github.com/mapbox/mvt-fixtures/) - a suite of valid and invalid test fixtures according to the Mapbox Vector Tile spec versions. Includes simplified unit test fixtures and real-world fixtures to test your encoders and decoders.
-- [zellige](https://github.com/sitewisely/zellige) - command line utility written to convert GeoJSON to MVT.
 - [mapbox-gl-function](https://github.com/mapbox/mapbox-gl-function) - Mapbox GL style function evaluator :warning: now maintained as party of mapbox-gl-js
 - [mapbox-gl-filter-simplify](https://github.com/mapbox/mapbox-gl-filter-simplify) - Simplifies and complexifies filters in Mapbox GL Styles :warning: removed
 
