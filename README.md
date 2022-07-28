@@ -13,6 +13,7 @@ data into vector tiles that can be rendered dynamically.
 - [vector-tile-cs](https://github.com/mapbox/vector-tile-cs) - Parses vector tiles with C# (native C# implementation, no dependencies).
 - [mapbox-vector-tile-cs](https://github.com/bertt/mapbox-vector-tile-cs) - Parses vector tiles with C# (uses protobuf-net).
 - [tilelive-vector](https://github.com/mapbox/tilelive-vector) - Implements [Tilelive API](https://github.com/mapbox/tilelive.js/blob/master/API.md) for reading vector tiles and rendering to image tiles in Node.js.
+- [tilelive-bridge](https://github.com/mapbox/tilelive-bridge) - Implements [Tilelive API](https://github.com/mapbox/tilelive.js/blob/master/API.md) for creating vector tiles from traditional Mapnik datasources in Node.js.
 - [mapbox-vector-tile](https://github.com/mapzen/mapbox-vector-tile) is a Python package for vector tile encoding. Used in Mapzen's vector tile service [tileserver](https://github.com/tilezen/tileserver) and TileStache. [:warning:](https://github.com/tilezen/mapbox-vector-tile/issues/42) Only support V1 Tile spec and not V2, no longer maintained
 - [geojson-vt](https://github.com/mapbox/geojson-vt) - Slice GeoJSON into vector tiles on the fly in the browser.
 - [geojson2vt](https://github.com/geometalab/geojson2vt) - Python port of [geojson-vt](https://github.com/mapbox/geojson-vt) to convert GeoJSON into vector tiles.
