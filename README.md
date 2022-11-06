@@ -25,6 +25,7 @@ data into vector tiles that can be rendered dynamically.
 - [SwiftVectorTiles](https://github.com/manimaul/SwiftVectorTiles) - A Swift encoder for vector tiles according to the Mapbox vector tile spec.
 - [orb](https://github.com/paulmach/orb) - A Go geometry library with mvt <-> geojson support.
 - [dart-vector-tile](https://github.com/saigontek/dart-vector-tile) - A simple Dart package to encode & decode Mapbox Vector Tile.
+- [php-vector-tile-data-provider](https://github.com/heymoon-cc/php-vector-tile-data-provider) - A Composer library for encoding arbitrary [OpenGIS](https://www.ogc.org/standards/sfa) data (as read from GeoJSON/WKT/WKB or populated manually) to MVT. Designed as base dependencty for custom tileserver ready for frequent updates on high RPS. Best fit for realtime weather or traffic data visualisation.
 
 ## Clients
 
