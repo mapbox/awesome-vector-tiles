@@ -145,6 +145,7 @@ data into vector tiles that can be rendered dynamically.
 - [Using the new MVT function in PostGIS](https://medium.com/nycplanninglabs/using-the-new-mvt-function-in-postgis-75f8addc1d68) - Building a vector tile service with PostGIS, express, and pg-promise.
 - [Serverless Vector Tiles on AWS](https://github.com/addresscloud/serverless-tiles)
 - [Tegola OSM/OMT Import Procedure](https://github.com/dechristopher/tegola-omt) - This document outlines everything necessary to build, from scratch, an operational OpenStreetMap vector tile server. The stack consists of the latest LTS Ubuntu Server distribution, Tegola as the tile server, PostgreSQL as the database, and the use of the open source OpenMapTiles standard schema.
+- [Creating OpenStreetMap Tiles](https://p3dt.net/post/2020/12/28/creating-map-tiles.html) - create you own vector tileset (and it's raster representation) from openstreetmap pbf data using tilemaker and tileserver-gl.
 
 ## License
 
