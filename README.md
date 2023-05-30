@@ -50,6 +50,7 @@ data into vector tiles that can be rendered dynamically.
 * [AliFlux VectorTileRenderer](https://github.com/AliFlux/VectorTileRenderer) - A highly customizable vector tile renderer built using C# for .Net platform. Comes with bindings for Mapsui and Gmap.Net components.
 * [Azure Maps Web SDK](https://docs.microsoft.com/azure/azure-maps/) - Render vector tile layers on an interactive web map control using JavaScript or TypeScript.
 * [Vector Tiles Google Maps](https://github.com/techjb/Vector-Tiles-Google-Maps) - Render vector tile layers on Google Maps.
+* [deckGl](https://deck.gl/docs/api-reference/geo-layers/mvt-layer) - WebGL-powered framework for visual exploratory data analysis of large datasets
 * [iTowns](https://github.com/iTowns/itowns) - Three.js based JavaScript library for visualizing 2D vector, raster and 3D geospatial data.
 
 ### Applications / Command line tools
