@@ -1,6 +1,6 @@
 # awesome-vector-tiles [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-The [Mapbox Vector Tile spec](https://www.mapbox.com/developers/vector-tiles/) is an efficient encoding for map
+The [Mapbox Vector Tile spec](https://github.com/mapbox/vector-tile-spec) is an efficient encoding for map
 data into vector tiles that can be rendered dynamically.
 
 ### Parsers & Generators
@@ -51,6 +51,7 @@ data into vector tiles that can be rendered dynamically.
 * [Azure Maps Web SDK](https://docs.microsoft.com/azure/azure-maps/) - Render vector tile layers on an interactive web map control using JavaScript or TypeScript.
 * [Vector Tiles Google Maps](https://github.com/techjb/Vector-Tiles-Google-Maps) - Render vector tile layers on Google Maps.
 * [deckGl](https://deck.gl/docs/api-reference/geo-layers/mvt-layer) - WebGL-powered framework for visual exploratory data analysis of large datasets
+* [iTowns](https://github.com/iTowns/itowns) - Three.js based JavaScript library for visualizing 2D vector, raster and 3D geospatial data.
 
 ### Applications / Command line tools
 
