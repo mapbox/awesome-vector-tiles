@@ -133,6 +133,7 @@ data into vector tiles that can be rendered dynamically.
 - [ngx_http_mbtiles_module](https://github.com/durkie/ngx_http_mbtiles_module) - Serve mbtiles files directly from nginx. Ideal for low-resource environments or situations where the mbtiles contents are changing frequently.
 - [TiMVT](https://github.com/developmentseed/timvt) - A lightweight PostGIS based dynamic vector tile server.
 - [Vallaris Maps](https://vallarismaps.com) - Mapping Platforms to storage process and services GIS Data. Provide DataService API and Maps API (Vector Tiles, WMS, WMTS) Compilance in OGC API Standards.
+- [Quarkus MVT Tile Server](https://gitlab.com/sigeosrl/quarkus-mvt-tile-server) - A Quarkus application that serves Mapbox Vector Tiles from PostGIS databases.
 
 ## Low-level utilities
 
