@@ -67,11 +67,12 @@ data into vector tiles that can be rendered dynamically.
 - [Mapbox MVT Chrome Extension](https://chrome.google.com/webstore/detail/mapbox-mvt/mfikcokdfehaofebfhoehbajfgbofdpk) - Google Chrome extension that parses loaded vector tiles on the fly, shows short statistics and shows each vector tile as GeoJSON
 - [Fresco](https://github.com/go-spatial/fresco) - is an open source Mapbox Vector Tile Style editor.
 - [Baremaps](https://www.baremaps.com/) - An open source pipeline for producing Mapbox vector tiles from OpenStreetMap with Postgis and Java.
+- [Felt](https://www.felt.com) - create, style, and share maps on the web
 
 ## CLI Utilities
 
 - [mbview](https://github.com/mapbox/mbview) - Watch MBTiles in your localhost. View tiles in a basic Mapbox GL JS webapp locally
-- [tippecanoe](https://github.com/mapbox/tippecanoe) - Build vector tilesets from large collections of GeoJSON features.
+- [tippecanoe](https://github.com/felt/tippecanoe) - Build vector tilesets from large collections of GeoJSON features.
 - [tilemaker](https://github.com/systemed/tilemaker) - Command line tool to produce vector tiles directly from an .osm.pbf extract without an intermediate database.
 - [mapbox-filter](https://github.com/ondrap/mapbox-filter) - Filter MBTiles according to Mapbox GL JS styles, shrink MBTiles directly, serve locally over http, publish to S3-compatibile storage
 - [vector-tiles-producer](https://github.com/vross/vector-tiles-producer) Command line tool in C++ to creates vector tiles for a given area at chosen zoom levels using a Mapnik XML. :warning: no longer maintained
