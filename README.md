@@ -142,6 +142,7 @@ data into vector tiles that can be rendered dynamically.
 - [mvt-fixtures](https://github.com/mapbox/mvt-fixtures/) - a suite of valid and invalid test fixtures according to the Mapbox Vector Tile spec versions. Includes simplified unit test fixtures and real-world fixtures to test your encoders and decoders.
 - [mapbox-gl-function](https://github.com/mapbox/mapbox-gl-function) - Mapbox GL style function evaluator :warning: now maintained as party of mapbox-gl-js
 - [mapbox-gl-filter-simplify](https://github.com/mapbox/mapbox-gl-filter-simplify) - Simplifies and complexifies filters in Mapbox GL Styles :warning: removed
+- [pymgl](https://github.com/brendan-ward/pymgl) - Maplibre GL Native Static Renderer for Python
 
 ## Articles
 
