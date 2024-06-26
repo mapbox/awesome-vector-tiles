@@ -3,7 +3,7 @@
 The [Mapbox Vector Tile spec](https://github.com/mapbox/vector-tile-spec) is an efficient encoding for map
 data into vector tiles that can be rendered dynamically.
 
-### Parsers & Generators
+## Parsers & Generators
 
 - [vector-tile-js](https://github.com/mapbox/vector-tile-js) - Parses vector tiles with JavaScript.
 - [mapnik-vector-tile](https://github.com/mapbox/mapnik-vector-tile) - C++ vector tile read/write implementation on top of Mapnik.
@@ -53,7 +53,7 @@ data into vector tiles that can be rendered dynamically.
 * [deckGl](https://deck.gl/docs/api-reference/geo-layers/mvt-layer) - WebGL-powered framework for visual exploratory data analysis of large datasets
 * [iTowns](https://github.com/iTowns/itowns) - Three.js based JavaScript library for visualizing 2D vector, raster and 3D geospatial data.
 
-### Applications / Command line tools
+## Applications / Command line tools
 
 - [Mapbox Studio](https://www.mapbox.com/mapbox-studio/) - Web design studio for creating and styling vector tiles.
 - [Mapbox Studio Classic](https://github.com/mapbox/mapbox-studio) - Desktop design studio for both creating vector tiles from raw geodata and for rendering them on-the-fly into image tiles. Internally uses `tilelive.js` modules to handle vector tiles (see `tilelive-bridge` and `tilelive-vector`) :warning: use [Mapbox Studio](https://www.mapbox.com/mapbox-studio/) instead.
