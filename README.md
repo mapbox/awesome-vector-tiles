@@ -3,7 +3,7 @@
 The [Mapbox Vector Tile spec](https://github.com/mapbox/vector-tile-spec) is an efficient encoding for map
 data into vector tiles that can be rendered dynamically.
 
-### Parsers & Generators
+## Parsers & Generators
 
 - [vector-tile-js](https://github.com/mapbox/vector-tile-js) - Parses vector tiles with JavaScript.
 - [mapnik-vector-tile](https://github.com/mapbox/mapnik-vector-tile) - C++ vector tile read/write implementation on top of Mapnik.
@@ -53,7 +53,7 @@ data into vector tiles that can be rendered dynamically.
 * [deckGl](https://deck.gl/docs/api-reference/geo-layers/mvt-layer) - WebGL-powered framework for visual exploratory data analysis of large datasets
 * [iTowns](https://github.com/iTowns/itowns) - Three.js based JavaScript library for visualizing 2D vector, raster and 3D geospatial data.
 
-### Applications / Command line tools
+## Applications / Command line tools
 
 - [Mapbox Studio](https://www.mapbox.com/mapbox-studio/) - Web design studio for creating and styling vector tiles.
 - [Mapbox Studio Classic](https://github.com/mapbox/mapbox-studio) - Desktop design studio for both creating vector tiles from raw geodata and for rendering them on-the-fly into image tiles. Internally uses `tilelive.js` modules to handle vector tiles (see `tilelive-bridge` and `tilelive-vector`) :warning: use [Mapbox Studio](https://www.mapbox.com/mapbox-studio/) instead.
@@ -67,11 +67,12 @@ data into vector tiles that can be rendered dynamically.
 - [Mapbox MVT Chrome Extension](https://chrome.google.com/webstore/detail/mapbox-mvt/mfikcokdfehaofebfhoehbajfgbofdpk) - Google Chrome extension that parses loaded vector tiles on the fly, shows short statistics and shows each vector tile as GeoJSON
 - [Fresco](https://github.com/go-spatial/fresco) - is an open source Mapbox Vector Tile Style editor.
 - [Baremaps](https://www.baremaps.com/) - An open source pipeline for producing Mapbox vector tiles from OpenStreetMap with Postgis and Java.
+- [Felt](https://www.felt.com) - create, style, and share maps on the web
 
 ## CLI Utilities
 
 - [mbview](https://github.com/mapbox/mbview) - Watch MBTiles in your localhost. View tiles in a basic Mapbox GL JS webapp locally
-- [tippecanoe](https://github.com/mapbox/tippecanoe) - Build vector tilesets from large collections of GeoJSON features.
+- [tippecanoe](https://github.com/felt/tippecanoe) - Build vector tilesets from large collections of GeoJSON features.
 - [tilemaker](https://github.com/systemed/tilemaker) - Command line tool to produce vector tiles directly from an .osm.pbf extract without an intermediate database.
 - [mapbox-filter](https://github.com/ondrap/mapbox-filter) - Filter MBTiles according to Mapbox GL JS styles, shrink MBTiles directly, serve locally over http, publish to S3-compatibile storage
 - [vector-tiles-producer](https://github.com/vross/vector-tiles-producer) Command line tool in C++ to creates vector tiles for a given area at chosen zoom levels using a Mapnik XML. :warning: no longer maintained
@@ -143,6 +144,7 @@ data into vector tiles that can be rendered dynamically.
 - [mvt-fixtures](https://github.com/mapbox/mvt-fixtures/) - a suite of valid and invalid test fixtures according to the Mapbox Vector Tile spec versions. Includes simplified unit test fixtures and real-world fixtures to test your encoders and decoders.
 - [mapbox-gl-function](https://github.com/mapbox/mapbox-gl-function) - Mapbox GL style function evaluator :warning: now maintained as party of mapbox-gl-js
 - [mapbox-gl-filter-simplify](https://github.com/mapbox/mapbox-gl-filter-simplify) - Simplifies and complexifies filters in Mapbox GL Styles :warning: removed
+- [pymgl](https://github.com/brendan-ward/pymgl) - Maplibre GL Native Static Renderer for Python
 
 ## Articles
 
