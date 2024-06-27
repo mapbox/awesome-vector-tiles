@@ -100,6 +100,7 @@ data into vector tiles that can be rendered dynamically.
 ## Servers
 
 - [ArcGIS Online](http://www.esri.com/software/arcgis/arcgisonline) - Supports serving vector tiles and rendering in the mapping application powered by the ArcGIS API for JavaScript
+- [BBOX](https://github.com/bbox-services/bbox) - An open source server to provide geodata as OGC API features, maps, tiles and more
 - [Cloud-Tileserver](https://github.com/henrythasler/cloud-tileserver) - Serve vector tiles with AWS. Includes a Lambda-Function written in Typescript to dynamically create vector tiles with postgis. Terraform configuration and step-by-step tutorial is also included.
 - [ClusterBuster](https://github.com/chargetrip/clusterbuster) A Mapbox Vector Tile (MVT) map tiling server with built-in clustering and filtering.
 - [djangorestframework-mvt](https://github.com/corteva/djangorestframework-mvt) - A Django REST Framework extension for creating views that serve Postgres data as tiles.  Tiles can be paginated and filtered by their properties.
@@ -153,6 +154,18 @@ data into vector tiles that can be rendered dynamically.
 - [Serverless Vector Tiles on AWS](https://github.com/addresscloud/serverless-tiles)
 - [Tegola OSM/OMT Import Procedure](https://github.com/dechristopher/tegola-omt) - This document outlines everything necessary to build, from scratch, an operational OpenStreetMap vector tile server. The stack consists of the latest LTS Ubuntu Server distribution, Tegola as the tile server, PostgreSQL as the database, and the use of the open source OpenMapTiles standard schema.
 - [Creating OpenStreetMap Tiles](https://p3dt.net/post/2020/12/28/creating-map-tiles.html) - create you own vector tileset (and it's raster representation) from openstreetmap pbf data using tilemaker and tileserver-gl.
+
+## Performance analysis
+
+- [vector-tiles-benchmark](https://github.com/FabianRechsteiner/vector-tiles-benchmark) - Performance comparison of open source vector tiles server solutions for providing geodata from PostGIS databases ([BBOX], [ldproxy], [Martin], [pg_tileserv], [Tegola], [TiPg])
+
+<!-- GitHub Links-->
+[BBOX]:https://github.com/bbox-services/bbox
+[ldproxy]:https://github.com/interactive-instruments/ldproxy
+[Martin]:https://github.com/maplibre/martin 
+[pg_tileserv]:https://github.com/CrunchyData/pg_tileserv
+[Tegola]:https://github.com/go-spatial/tegola
+[TiPg]:https://github.com/developmentseed/tipg
 
 ## License
 
