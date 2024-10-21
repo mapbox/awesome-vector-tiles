@@ -92,6 +92,7 @@ data into vector tiles that can be rendered dynamically.
 - [XYZ](https://github.com/dechristopher/xyz) - Simple tool to procedurally prime XYZ tile caches to a given zoom level.
 - [Planetiler](https://github.com/onthegomap/planetiler) - Command-line Java program to build planet-scale vector tilesets from OpenStreetMap data in a few hours.
 - [sequentially-generate-planet-mbtiles](https://github.com/lambdajack/sequentially-generate-planet-mbtiles) - Easily generate planet-scale vector tilesets on low memory / low cpu count devices.
+- [Vtiles](https://pypi.org/project/vtiles/) - All in One Vector Tiles Utilities.
 
 ## Mapbox GL JS Plugins
 
