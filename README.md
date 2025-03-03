@@ -136,6 +136,7 @@ data into vector tiles that can be rendered dynamically.
 - [TiMVT](https://github.com/developmentseed/timvt) - A lightweight PostGIS based dynamic vector tile server.
 - [Vallaris Maps](https://vallarismaps.com) - Mapping Platforms to storage process and services GIS Data. Provide DataService API and Maps API (Vector Tiles, WMS, WMTS) Compilance in OGC API Standards.
 - [Quarkus MVT Tile Server](https://gitlab.com/sigeosrl/quarkus-mvt-tile-server) - A Quarkus application that serves Mapbox Vector Tiles from PostGIS databases.
+- [mvt server](https://github.com/mvt-proj/mvt-rs) - A simple and high-speed vector tile server (and more) developed in Rust, using the Salvo web framework.
 
 ## Low-level utilities
 
@@ -162,7 +163,7 @@ data into vector tiles that can be rendered dynamically.
 <!-- GitHub Links-->
 [BBOX]:https://github.com/bbox-services/bbox
 [ldproxy]:https://github.com/interactive-instruments/ldproxy
-[Martin]:https://github.com/maplibre/martin 
+[Martin]:https://github.com/maplibre/martin
 [pg_tileserv]:https://github.com/CrunchyData/pg_tileserv
 [Tegola]:https://github.com/go-spatial/tegola
 [TiPg]:https://github.com/developmentseed/tipg
