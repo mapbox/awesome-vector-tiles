@@ -68,6 +68,7 @@ data into vector tiles that can be rendered dynamically.
 - [Fresco](https://github.com/go-spatial/fresco) - is an open source Mapbox Vector Tile Style editor.
 - [Baremaps](https://www.baremaps.com/) - An open source pipeline for producing Mapbox vector tiles from OpenStreetMap with Postgis and Java.
 - [Felt](https://www.felt.com) - create, style, and share maps on the web
+- [Vector Tile Lab](https://github.com/spider-hand/vector-tile-lab) - An interactive sandbox to tune vector tiles.
 
 ## CLI Utilities
 
