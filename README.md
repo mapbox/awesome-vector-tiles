@@ -113,7 +113,7 @@ data into vector tiles that can be rendered dynamically.
 - [Kartotherian](https://github.com/kartotherian/kartotherian) Wikipedia tile server with [Tilerator](https://github.com/kartotherian/tilerator) backend tile pre-generator
 - [LOD](https://github.com/tile-fund/lod) - A thin map tile proxy with in-memory caching and a slim authentication backend.
 - [MapServer](https://mapserver.org/) - Open Source platform, written in C, for publishing spatial data and interactive mapping applications to the web. MVT output available since version 7.2
-- [martin](https://github.com/urbica/martin) - is a PostGIS vector tiles server suitable for large databases.
+- [martin](https://github.com/maplibre/martin) - Blazing fast and lightweight PostGIS, MBtiles and PMtiles tile server written in Rust. Support for tile copying, diffing and updating.
 - [mbtileserver](https://github.com/consbio/mbtileserver) - A simple Go-based server for map tiles stored in mbtiles format.
 - [OpenMapTiles](https://github.com/openmaptiles) - Set of open-source tools for self-hosting of OpenStreetMap maps in more than 50 languages. It provides both raster as well as vector tiles, WMS and WMTS services for GIS programs, support for JavaScript viewers and mobile SDK.
 - [OSM Scout Server](https://rinigus.github.io/osmscout-server/) - Maps server providing vector and raster tiles, geocoder, and router. Designed to be used on Linux (mobile and PC) to provide offline maps; written in C++
