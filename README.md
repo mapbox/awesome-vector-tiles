@@ -96,10 +96,13 @@ data into vector tiles that can be rendered dynamically.
 - [Planetiler](https://github.com/onthegomap/planetiler) - Command-line Java program to build planet-scale vector tilesets from OpenStreetMap data in a few hours.
 - [sequentially-generate-planet-mbtiles](https://github.com/lambdajack/sequentially-generate-planet-mbtiles) - Easily generate planet-scale vector tilesets on low memory / low cpu count devices.
 - [Vtiles](https://pypi.org/project/vtiles/) - All in One Vector Tiles Utilities.
+- [tilefeed](https://github.com/muimsd/tilefeed) - PostGIS vector tile pipeline that generates MBTiles via Tippecanoe with incremental updates via PostgreSQL LISTEN/NOTIFY.
 
 ## Mapbox GL JS Plugins
 
 - [gl-draw](https://github.com/mapbox/gl-draw) - Adds support for drawing and editing features on Mapbox GL JS maps
+- [map-gl-offline](https://github.com/muimsd/map-gl-offline) - A TypeScript package for MapLibre GL JS and Mapbox GL JS to enable offline tiles.
+- [map-gl-style-switcher](https://github.com/muimsd/map-gl-style-switcher) - A customizable style switcher control for Mapbox GL JS and MapLibre GL JS.
 
 ## Servers
 
