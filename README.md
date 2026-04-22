@@ -141,6 +141,7 @@ data into vector tiles that can be rendered dynamically.
 - [Vallaris Maps](https://vallarismaps.com) - Mapping Platforms to storage process and services GIS Data. Provide DataService API and Maps API (Vector Tiles, WMS, WMTS) Compilance in OGC API Standards.
 - [Quarkus MVT Tile Server](https://gitlab.com/sigeosrl/quarkus-mvt-tile-server) - A Quarkus application that serves Mapbox Vector Tiles from PostGIS databases.
 - [mvt server](https://github.com/mvt-proj/mvt-rs) - A simple and high-speed vector tile server (and more) developed in Rust, using the Salvo web framework.
+- [MapAtlas](https://mapatlas.eu) - REST API serving MVT vector tiles along with geocoding, routing, isochrone, and map matching services, built on OpenStreetMap and proprietary data.
 
 ## Low-level utilities
 
