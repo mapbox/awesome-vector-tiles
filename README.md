@@ -97,6 +97,7 @@ data into vector tiles that can be rendered dynamically.
 - [sequentially-generate-planet-mbtiles](https://github.com/lambdajack/sequentially-generate-planet-mbtiles) - Easily generate planet-scale vector tilesets on low memory / low cpu count devices.
 - [Vtiles](https://pypi.org/project/vtiles/) - All in One Vector Tiles Utilities.
 - [tilefeed](https://github.com/muimsd/tilefeed) - PostGIS vector tile pipeline that generates MBTiles via Tippecanoe with incremental updates via PostgreSQL LISTEN/NOTIFY.
+- [mbview-go](https://github.com/ATofighi/mbview-go) - Watch and debug MBTiles in your localhost. A go reimplentation of [mbview](https://github.com/mapbox/mbview) designed for modern toolchains and distributed as standalone binaries.
 
 ## Mapbox GL JS Plugins
 
@@ -118,7 +119,7 @@ data into vector tiles that can be rendered dynamically.
 - [Kartotherian](https://github.com/kartotherian/kartotherian) Wikipedia tile server with [Tilerator](https://github.com/kartotherian/tilerator) backend tile pre-generator
 - [LOD](https://github.com/tile-fund/lod) - A thin map tile proxy with in-memory caching and a slim authentication backend.
 - [MapServer](https://mapserver.org/) - Open Source platform, written in C, for publishing spatial data and interactive mapping applications to the web. MVT output available since version 7.2
-- [martin](https://github.com/urbica/martin) - is a PostGIS vector tiles server suitable for large databases.
+- [martin](https://github.com/maplibre/martin) - Blazing fast and lightweight PostGIS, MBtiles and PMtiles tile server written in Rust. Support for tile copying, diffing and updating.
 - [mbtileserver](https://github.com/consbio/mbtileserver) - A simple Go-based server for map tiles stored in mbtiles format.
 - [OpenMapTiles](https://github.com/openmaptiles) - Set of open-source tools for self-hosting of OpenStreetMap maps in more than 50 languages. It provides both raster as well as vector tiles, WMS and WMTS services for GIS programs, support for JavaScript viewers and mobile SDK.
 - [OSM Scout Server](https://rinigus.github.io/osmscout-server/) - Maps server providing vector and raster tiles, geocoder, and router. Designed to be used on Linux (mobile and PC) to provide offline maps; written in C++
@@ -144,6 +145,7 @@ data into vector tiles that can be rendered dynamically.
 - [Vallaris Maps](https://vallarismaps.com) - Mapping Platforms to storage process and services GIS Data. Provide DataService API and Maps API (Vector Tiles, WMS, WMTS) Compilance in OGC API Standards.
 - [Quarkus MVT Tile Server](https://gitlab.com/sigeosrl/quarkus-mvt-tile-server) - A Quarkus application that serves Mapbox Vector Tiles from PostGIS databases.
 - [mvt server](https://github.com/mvt-proj/mvt-rs) - A simple and high-speed vector tile server (and more) developed in Rust, using the Salvo web framework.
+- [MapAtlas](https://mapatlas.eu) - REST API serving MVT vector tiles along with geocoding, routing, isochrone, and map matching services, built on OpenStreetMap and proprietary data.
 
 ## Low-level utilities
 
