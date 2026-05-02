@@ -51,6 +51,7 @@ data into vector tiles that can be rendered dynamically.
 * [AliFlux VectorTileRenderer](https://github.com/AliFlux/VectorTileRenderer) - A highly customizable vector tile renderer built using C# for .Net platform. Comes with bindings for Mapsui and Gmap.Net components.
 * [Azure Maps Web SDK](https://docs.microsoft.com/azure/azure-maps/) - Render vector tile layers on an interactive web map control using JavaScript or TypeScript.
 * [Vector Tiles Google Maps](https://github.com/techjb/Vector-Tiles-Google-Maps) - Render vector tile layers on Google Maps.
+* [esri-gl](https://github.com/muimsd/esri-gl) - A module for using Esri services in Mapbox GL JS or MapLibre GL JS, an alternative to esri-leaflet for WebGL.
 * [deckGl](https://deck.gl/docs/api-reference/geo-layers/mvt-layer) - WebGL-powered framework for visual exploratory data analysis of large datasets
 * [iTowns](https://github.com/iTowns/itowns) - Three.js based JavaScript library for visualizing 2D vector, raster and 3D geospatial data.
 
@@ -95,11 +96,14 @@ data into vector tiles that can be rendered dynamically.
 - [Planetiler](https://github.com/onthegomap/planetiler) - Command-line Java program to build planet-scale vector tilesets from OpenStreetMap data in a few hours.
 - [sequentially-generate-planet-mbtiles](https://github.com/lambdajack/sequentially-generate-planet-mbtiles) - Easily generate planet-scale vector tilesets on low memory / low cpu count devices.
 - [Vtiles](https://pypi.org/project/vtiles/) - All in One Vector Tiles Utilities.
+- [tilefeed](https://github.com/muimsd/tilefeed) - PostGIS vector tile pipeline that generates MBTiles via Tippecanoe with incremental updates via PostgreSQL LISTEN/NOTIFY.
 - [mbview-go](https://github.com/ATofighi/mbview-go) - Watch and debug MBTiles in your localhost. A go reimplentation of [mbview](https://github.com/mapbox/mbview) designed for modern toolchains and distributed as standalone binaries.
 
 ## Mapbox GL JS Plugins
 
 - [gl-draw](https://github.com/mapbox/gl-draw) - Adds support for drawing and editing features on Mapbox GL JS maps
+- [map-gl-offline](https://github.com/muimsd/map-gl-offline) - A TypeScript package for MapLibre GL JS and Mapbox GL JS to enable offline tiles.
+- [map-gl-style-switcher](https://github.com/muimsd/map-gl-style-switcher) - A customizable style switcher control for Mapbox GL JS and MapLibre GL JS.
 
 ## Servers
 
