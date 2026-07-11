@@ -147,6 +147,7 @@ data into vector tiles that can be rendered dynamically.
 - [Quarkus MVT Tile Server](https://gitlab.com/sigeosrl/quarkus-mvt-tile-server) - A Quarkus application that serves Mapbox Vector Tiles from PostGIS databases.
 - [mvt server](https://github.com/mvt-proj/mvt-rs) - A simple and high-speed vector tile server (and more) developed in Rust, using the Salvo web framework.
 - [MapAtlas](https://mapatlas.eu) - REST API serving MVT vector tiles along with geocoding, routing, isochrone, and map matching services, built on OpenStreetMap and proprietary data.
+- [LatLng](https://www.latlng.work) - REST API serving MapLibre-compatible MVT vector tiles, raster tiles, and static maps, with geocoding, reverse geocoding, and places search, built on OpenStreetMap data.
 
 ## Low-level utilities
 
