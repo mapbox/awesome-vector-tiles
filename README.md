@@ -100,6 +100,7 @@ data into vector tiles that can be rendered dynamically.
 - [Vtiles](https://pypi.org/project/vtiles/) - All in One Vector Tiles Utilities.
 - [tilefeed](https://github.com/muimsd/tilefeed) - PostGIS vector tile pipeline that generates MBTiles via Tippecanoe with incremental updates via PostgreSQL LISTEN/NOTIFY.
 - [mbview-go](https://github.com/ATofighi/mbview-go) - Watch and debug MBTiles in your localhost. A go reimplentation of [mbview](https://github.com/mapbox/mbview) designed for modern toolchains and distributed as standalone binaries.
+- [manby](https://github.com/birkskyum/manby) - Builds the same vector tiles as tippecanoe, with its options, 8 to 18 times faster.
 
 ## Mapbox GL JS Plugins
 
