@@ -123,6 +123,7 @@ data into vector tiles that can be rendered dynamically.
 - [Kartotherian](https://github.com/kartotherian/kartotherian) Wikipedia tile server with [Tilerator](https://github.com/kartotherian/tilerator) backend tile pre-generator
 - [LOD](https://github.com/tile-fund/lod) - A thin map tile proxy with in-memory caching and a slim authentication backend.
 - [MapAtlas](https://mapatlas.eu) - REST API serving MVT vector tiles along with geocoding, routing, isochrone, and map matching services, built on OpenStreetMap and proprietary data.
+- [MapScale](https://mapscale.io) - Hosted API serving OpenMapTiles-profile MVT vector tiles (z0-14), styles and glyphs for Thailand, alongside geocoding and routing.
 - [Maptoolkit.org](https://github.com/maptoolkit/maptoolkit.org) - free REST API serving MVT vector tiles
 - [MapServer](https://mapserver.org/) - Open Source platform, written in C, for publishing spatial data and interactive mapping applications to the web. MVT output available since version 7.2
 - [martin](https://github.com/maplibre/martin) - Blazing fast and lightweight PostGIS, MBtiles and PMtiles tile server written in Rust. Support for tile copying, diffing and updating.
